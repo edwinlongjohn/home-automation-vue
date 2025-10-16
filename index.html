@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Home Control</title>
+  <link rel="stylesheet" href="cite.css">
+  
+</head>
+<body>
+       
+  <h1>Smart Home Control</h1>
+
+    <!-- <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact US</a>
+        <a href="contact.html">Security System</a>
+        <a href="contact.html">Services</a>
+        <a href="about.html">Elements</a>
+        
+    </div>  -->
+<div id="app">
+
+</div>
+  
+  <script type="module" src="/src/main.js"></script>  
+  <script>
+    function turnOn(roomId) {
+      const room = document.getElementById(roomId);
+      const status = room.querySelector(".status");
+      status.textContent = "Status: ON";
+      status.style.color = "green";
+    }
+
+    function turnOff(roomId) {
+      const room = document.getElementById(roomId);
+      const status = room.querySelector(".status");
+      status.textContent = "Status: OFF";
+      status.style.color = "red";
+    }
+  </script>
+</body>
+</html>

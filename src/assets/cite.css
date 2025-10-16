@@ -1,0 +1,83 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      /* background: #f2f2f2; */
+      background-image: url(images/🔥\ Whatsapp\ Backgrounds\ on\ WallpaperSafari.jpg);
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 50px;
+      text-align: center;
+        color: #333333;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color: #333333;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    .navbar a {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .navbar a:hover {
+        background-color: #ddd;
+        border-radius: 10px;
+        color: black;
+    }
+    .rooms-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .room {
+      background: #ffffff88;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      flex: 1 1 40%;
+      max-width: 400px;
+      min-width: 300px;
+      
+    }
+    .rooms-container :hover {
+      background: white;
+    }
+    .room h2 {
+      margin-bottom: 10px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .on {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .on:hover {
+        background-color: #1bcf21;
+    }
+    .off {
+      background-color: #f44336;
+      color: white;
+      
+    }
+    .off:hover {
+        background-color: #f71a0a;
+    }
+    .status {
+      margin-top: 10px;
+      font-weight: bold;
+    }
